@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Raditya Shop</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 700px;
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+.header {
+  background-color: #494949;
+  color: white;
+  padding: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: silver;
+  color: black;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: grey;
+}
+
+.aside {
+  background-color: #494949;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.footer {
+  background-color: grey;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Raditya Shop</h1>
+</div>
+
+<div class="row">
+  <div class="col-3 col-s-3 menu">
+    <ul>
+      <li>Beranda</li>
+      <li>Produk</li>
+      <li>Tentang</li>
+    </ul>
+  </div>
+
+  <div class="col-6 col-s-9">
+    <h1>Sepatu Adidas Superstar</h1>
+    <img src="./gambar/sepatuadidas.jpg" alt="Sepatu Adidas" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Pada awalnya dibuat untuk olahraga basket di era 70-an. Menjadi pilihan musisi hip hop di era 80-an. Sepatu adidas Superstar kini adalah produk lifestyle favorit untuk para pecinta streetwear. Tetap mempertahankan shell toe yang telah mendunia untuk mempertahankan unsur style dan perlindungan. Sama halnya dengan versi sepatu yang digunakan dalam olahraga basket di masa lampau.    Kini, ketika berada di festival atau berjalan di tempat yang ramai Anda tidak perlu khawatir kaki sakit karena terinjak. Detail 3-Stripes bergerigi dan logo box adidas Superstar menghadirkan keauntentikan versi OG dalam penampilan Anda.</p>
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 1.700.000</p>
+    <br>
+    <br>
+    <h1>Sepatu Converse Chuck 70 Court Fusion</h1>
+    <img src="./gambar/sepatuconverse.jpg" alt="Sepatu Converse" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Chuck 70 dibuat dari desain 1970-an yang asli, dengan bahan-bahan premium, pengerjaan yang luar biasa, dan bantalan ekstra. Terinspirasi dari kesamaran dunia digital dan nyata, dengan warna alami yang pucat dan netral, serta campuran berbagai bahan. Upper dari 100% poliester daur ulang serta lapisan suede di tempelan tumit dan ollie memadukan tekstur sekaligus warna. Eyerow berlapis kanvas organik untuk perlindungan tambahan, dengan tali besar berbahan daur ulang untuk menyempurnakan tampilan buatan tangan. Tingkatkan gaya dan ekspresi dirimu.
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 767.200</p>
+    <br>
+    <br>
+    <h1>Kaos Converse X Basquiat </h1>
+    <img src="./gambar/kaosconverse.jpg" alt="Kaos Converse" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Ekspresikan gaya Anda dan tampilkan street style dengan pakaian Converse. Direvitalisasi, segar dan penuh energi, pakaian gaya hidup Converse akan membantu Anda menonjol dari keramaian dan menyalurkan individualitas dan ekspresi diri Anda sendiri.</p>
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 799.000</p>
+    <br>
+    <br>
+    <h1>Sepatu Nike Air Force 1 '07 Next Nature </h1>
+    <img src="./gambar/sepatunike.webp" alt="Sepatu Nike" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Tidak ada pelanggaran, semua permainan. Terbuat dari setidaknya 20% bahan daur ulang menurut beratnya, OG yang menulis sejarah sepatu kets diperbarui dengan kulit sintetis.</p>
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 1.379.000</p>
+    <br>
+    <br>
+    <h1>Sepatu New Balance DynaSoft Nitrel V4 Men's Running Shoes - Magnet</h1>
+    <img src="./gambar/sepatunewbalance.webp" alt="Sepatu New Balance" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Perluas latihan lari Anda dengan sepatu lari trail pria MTNTRV4 yang dilengkapi dengan outsole AT Tread untuk traksi di permukaan on-dan off-road. Midsole DynaSoft yang responsif dan sisipan busa memberikan nuansa lembut sementara upper mesh berteknologi menambah sirkulasi udara untuk membantu kaki tetap nyaman saat Anda berada di luar jalur. Selesai dengan lapisan luar tanpa jahitan untuk menambah daya tahan dan kecocokan yang ramping.</p>
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 1.199.000</p>
+    <br>
+    <br>
+    <h1>Hoodie Tommy Hilfiger - Tommy Icons Hoody</h1>
+    <img src="./gambar/hoodietommy.jpg" alt="Hoodie Tommy Hilfiger" width="640" height="640">
+    <p>Deskripsi Produk</p>
+    <p>Koleksi kapsul TOMMY ICONS adalah perayaan gaya paling ikonik Tommy Hilfiger, memberikan sentuhan yang lebih tinggi pada klasik abadi untuk saat ini.</p>
+    <p>Logo di bagian dada menambahkan semburat warna cerah pada tudung pull-on yang terbuat dari bulu campuran katun organik.</p>
+    <p>Mengenai Ukuran :</p>
+    <ul>
+        <li>Selisih 1-2 cm mungkin terjadi dikarenakan proses pengembangan dan produksi.</li>
+    </ul>
+    <p>Mengenai Warna :</p>
+    <ul>
+        <li>Warna sesungguhnya mungkin dapat berbeda. Hal ini dikarenakan setiap layar memiliki kemampuan yang berbeda-beda untuk menampilkan warna, kami tidak dapat menjamin bahwa warna yang Anda lihat adalah warna akurat dari produk tersebut.</li>
+    </ul>
+    <hr>
+    <p>Harga : Rp. 2.290.000</p>
+  <br>
+</div>
+
+  <div class="col-3 col-s-12">
+    <div class="aside">
+        <h2>Tentang</h2>
+        <hr>
+        <p>Raditya shop merupakan salah satu website yang menjual produk yang dibutuhkan oleh anda.</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Copyright © 2022</p>
+</div>
+
+</body>
+</html>
